@@ -13,6 +13,13 @@ A partir de um arquivo de telefones .csv, cria outro arquivo de telefones .csv, 
 O programa não tem dependências.
 
 
+## Pré-Execução
+Para gerar o arquivo "telefones.csv" inicial, vá ao formulário de inscrição do Bunrenkai, na seção de respostas, e clique o botão "ver respostas no Sheets."
+
+No Sheets, selecione as colunas "Nome Completo" e "Qual é o seu número de celular para contato?," clicando nas letras acima. Segurando a tecla Ctrl e clicando nos cabeçalhos, remova-os da seleção. Copie a seleção.
+
+Clique o botão em formato de "+" no canto inferior esquerdo da tela para criar uma nova tabela. Nela, cole a seleção. Então, no menu "Arquivo" baixe o arquivo com a extensão .csv, renomeando-o para "telefones.csv"
+
 ## Execução
 O arquivo "script_telefones_bunrenkai.exe" deve ser executado de dentro de uma pasta, com um arquivo "telefones.csv" inicial.
 
