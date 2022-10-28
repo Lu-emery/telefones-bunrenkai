@@ -3,7 +3,7 @@ from sre_parse import DIGITS
 from string import digits
 import re
 
-arquivo_telefones = open("telefones.csv", mode="r")
+arquivo_telefones = open("telefones.csv", mode="r", encoding="utf-8")
 
 string_arq_novo = "Name,Phone\n"
 
@@ -39,5 +39,5 @@ string_arq_novo = string_arq_novo[:-1]
 
 arquivo_telefones.close()
 
-arq_novo = open("saida.csv", mode="w")
+arq_novo = open("saida.csv", mode="w", encoding="utf-8")
 arq_novo.write(string_arq_novo)
